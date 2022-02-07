@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backcat"
+    tools:context=".newjobsportal.MakeJob">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Post a Job"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/ic_photo_black_24dp" />
+
+    <EditText
+        android:id="@+id/jobTitle"
+        style="@style/editTextBackgroundStyle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Job Title"
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#699498" />
+
+    <EditText
+        android:id="@+id/jobDescription"
+        style="@style/editTextBackgroundStyle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Job Detail"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#699498" />
+
+    <EditText
+        android:id="@+id/jobContact"
+        style="@style/editTextBackgroundStyle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="number"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#699498" />
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyling"
+        android:text="Post this Job"
+        android:textColor="@android:color/white"
+        android:textSize="16dp" />
+
+</LinearLayout>

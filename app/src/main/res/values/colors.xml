@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#36394c</color>
+    <color name="colorPrimaryDark">#36394c</color>
+    <color name="colorAccent">#36394c</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+    <color name="button_orange">#fe5824</color>
+    <color name="button_blue">#40579b</color>
+    <color name="button_green">#43bd42</color>
+    <color name="button_gray">#f1f5f8</color>
+    <color name="button_magenta">#ea2064</color>
+    <color name="button_yellow">#ff9807</color>
+
+    <color name="accent">#caffeb3b</color>
+    <color name="accent_translucent">#caffeb3b</color>
+    <color name="main_menu_bg">#34374a</color>
+    <color name="main_menu_bg_active">#353a4c</color>
+    <color name="main_menu_count_active">#ffffff</color>
+    <color name="main_menu_count_nonactive">#84ff02</color>
+
+//category
+    <color name="CatcolorPrimary">#ff5e38</color>
+    <color name="CatcolorPrimaryDark">#ff4e41</color>
+    <color name="CatcolorAccent">#232323</color>
+    <color name="CatGradientStart">#ff5e38</color>
+    <color name="CatGradientEnd">#ff1461</color>
+    <color name="nextcatB">#d60d53</color>
+    <color name="CatButtonBlack">#000000</color>
+
+
+    //login
+    <color name="walkthrough19Background">#f2f6f9</color>
+    <color name="button_white">@android:color/white</color>
+    <color name="profile5CardGray">#83e1e1e1</color>
+
+</resources>

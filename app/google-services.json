@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "318089877422",
+    "firebase_url": "https://educy-6ed8a.firebaseio.com",
+    "project_id": "educy-6ed8a",
+    "storage_bucket": "educy-6ed8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318089877422:android:fd98a3f89efec0cafd1a3f",
+        "android_client_info": {
+          "package_name": "netscope.mango.educy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318089877422-leg8pqnutbi5or243g0b34ihcm3f262s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "netscope.mango.educy",
+            "certificate_hash": "7f8af368d347d6d28e2105695c2c9a9151e0e40c"
+          }
+        },
+        {
+          "client_id": "318089877422-tbdu1n2u0o8ksc7f11j903nng1n1fj4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb-lnk73LtvixiDWYS80wczYk-CfktdaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318089877422-di7spodfpi4iihpp3ii7lestrjgtaspa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

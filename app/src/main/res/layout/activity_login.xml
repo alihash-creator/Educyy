@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backcat"
+    tools:context="netscope.mango.educy.Login">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/ed"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView2"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/email"
+        style="@style/editTextBackgroundStyle"
+        android:layout_width="337dp"
+        android:layout_height="53dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#699498"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="168dp"
+        android:layout_below="@id/profile_image"
+        tools:ignore="RtlCompat" />
+
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/editTextBackgroundStyle"
+        android:layout_width="334dp"
+        android:layout_height="53dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#699498"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="260dp"
+        android:layout_below="@id/email"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyling"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/tutorBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Tutor"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            tools:ignore="RtlCompat" />
+
+        <RadioButton
+            android:id="@+id/studentBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Student"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="You don't have account?"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Register"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

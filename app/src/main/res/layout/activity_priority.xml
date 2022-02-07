@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcat"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:text="Priority"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:text="Who are you?"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/row_cat_button"
+        android:maxLines="1"
+        android:minWidth="20dp"
+        android:layout_gravity="center"
+        android:paddingEnd="18dp"
+        android:paddingStart="18dp"
+        android:textColor="@android:color/white"
+        android:text="Teacher" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/row_cat_button"
+        android:maxLines="1"
+        android:minWidth="20dp"
+        android:layout_gravity="center"
+        android:paddingEnd="18dp"
+        android:paddingStart="18dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:text="Student" />
+</LinearLayout>

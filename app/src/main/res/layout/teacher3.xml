@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Random Quotes"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/album_title"
+        android:layout_marginTop="60dp"
+        android:id="@+id/one"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/album_title"
+            android:textStyle="italic"
+            android:layout_margin="10dp"
+            android:textSize="16dp"
+            android:id="@+id/qt"
+            android:textColor="@color/main_menu_count_active"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:id="@+id/Authr"
+            android:textColor="@color/CatcolorPrimary"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/one">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_marginRight="120dp"
+        android:layout_marginLeft="120dp"
+        android:background="@color/button_orange"
+        android:textColor="@color/main_menu_count_active"
+        android:textStyle="bold"
+        android:id="@+id/next"
+        />
+    </LinearLayout>
+</RelativeLayout>

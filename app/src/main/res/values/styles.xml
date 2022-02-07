@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ButtonWhite" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/button_white</item>
+    </style>
+    <!--Category-->
+    <style name="CatTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/CatcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/CatcolorPrimaryDark</item>
+        <item name="colorAccent">@color/CatcolorAccent</item>
+    </style>
+    <style name="AppThemee" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">#3F51B5</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/CatcolorPrimary</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">#ffff</item>
+    </style>
+
+    <style name="editTextBackgroundStyle" parent="CardView">
+        <item name="cardBackgroundColor">#fff</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">5dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:background">@drawable/edittextstyling</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+</resources>
